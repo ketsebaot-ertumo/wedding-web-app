@@ -10,7 +10,7 @@ const WeddingQRCode = () => {
   return (
     <div style={{ position: "relative", width: qrSize, height: qrSize }}>
       <QRCodeCanvas
-        value="https://weeding.vercel.app"
+        value="https://weeding-web.vercel.app"
         size={qrSize}
         level="H"
         includeMargin={true}

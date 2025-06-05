@@ -29,7 +29,7 @@ export default function CountdownTimer() {
   }
 
   return (
-    <div className="text-center text-xl sm:text-2xl font-semibold text-rose-600 mt-4">
+    <div className="text-center text-xl sm:text-2xl font-semibold text-rose-600 my-4">
       ⏳ Countdown to Our Wedding:<br />
       <div className="flex justify-center gap-4 mt-2 text-rose-500 font-mono">
         <div>{timeLeft.days}d</div>

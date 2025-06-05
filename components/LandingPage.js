@@ -7,6 +7,7 @@ import ImageUploader from "@/components/ImageUploader";
 import ImageGrid from "@/components/ImageGrid";
 import Footer from "@/components/Footer";
 import { Loader } from "@/components/Loader";
+import CountdownTimer from "@/components/CountdownTimer"
 
 const imageData = [
   "/images/img-1.jpg",
@@ -53,6 +54,8 @@ export default function HomePage() {
           Share your love, joy, and unforgettable moments with us!
         </p>
       </motion.header>
+
+      <CountdownTimer />
 
       {/* Upload Section */}
       <section className="max-w-3xl mx-auto mb-16 px-4">
