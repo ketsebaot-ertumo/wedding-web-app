@@ -5,7 +5,8 @@ import LandingPage from '../components/LandingPage';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center text-center p-6">
+    // <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center text-center p-6">
+    <div>
       <LandingPage />
     </div>
   );

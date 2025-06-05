@@ -1,4 +1,4 @@
-import WeddingQRCode from "../components/WeddingQRCode";
+import WeddingQRCode from "@/components/WeddingQRCode";
 
 export default function HomePage() {
   return (
